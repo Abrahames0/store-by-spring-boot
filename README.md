@@ -41,11 +41,11 @@ Este proyecto es un Sistema de Gestión de Tienda que proporciona un servicio ba
 ### Backend
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/tu_usuario/store-backend.git
+    git clone https://github.com/tu_usuario/store-management.git
     ```
-2. Navegar al directorio del proyecto:
+2. Navegar al directorio del backend:
     ```bash
-    cd store-backend
+    cd store-management/app_store_marm
     ```
 3. Construir el proyecto con Maven:
     ```bash
@@ -57,19 +57,15 @@ Este proyecto es un Sistema de Gestión de Tienda que proporciona un servicio ba
     ```
 
 ### Frontend
-1. Clonar el repositorio:
+1. Navegar al directorio del frontend:
     ```bash
-    git clone https://github.com/tu_usuario/store-frontend.git
+    cd store-management/front_store_aseg
     ```
-2. Navegar al directorio del proyecto:
-    ```bash
-    cd store-frontend
-    ```
-3. Instalar las dependencias:
+2. Instalar las dependencias:
     ```bash
     npm install
     ```
-4. Ejecutar la aplicación:
+3. Ejecutar la aplicación:
     ```bash
     npm start
     ```
