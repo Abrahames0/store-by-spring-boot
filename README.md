@@ -29,6 +29,7 @@ Este proyecto es un Sistema de Gestión de Tienda que proporciona un servicio ba
 - H2 Database (para pruebas)
 - MySQL (para producción)
 - Maven
+- etc...
 
 ### Frontend
 - React
@@ -41,7 +42,7 @@ Este proyecto es un Sistema de Gestión de Tienda que proporciona un servicio ba
 ### Backend
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/tu_usuario/store-management.git
+    git clone https://github.com/Abrahames0/store-by-spring-boot.git
     ```
 2. Navegar al directorio del backend:
     ```bash
@@ -49,11 +50,11 @@ Este proyecto es un Sistema de Gestión de Tienda que proporciona un servicio ba
     ```
 3. Construir el proyecto con Maven:
     ```bash
-    mvn clean install
+    npm clean install
     ```
 4. Ejecutar la aplicación:
     ```bash
-    mvn spring-boot:run
+    npm spring-boot:run
     ```
 
 ### Frontend
