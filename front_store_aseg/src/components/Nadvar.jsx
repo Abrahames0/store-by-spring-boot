@@ -12,6 +12,7 @@ function Nadvar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/catalogo">Catalogo</Nav.Link>
             <Nav.Link href="/carrito">Carrito</Nav.Link>
+            <Nav.Link href='/usuarios'>Usuarios</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

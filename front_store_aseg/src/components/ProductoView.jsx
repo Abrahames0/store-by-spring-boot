@@ -3,7 +3,9 @@ import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function ProductoView({ id, nombre, descripcion, precio, handler }) {
+
   const navigate = useNavigate();
+  
   const agregarProducto = (producto) => {
     handler(producto);
     navigate("/carrito");

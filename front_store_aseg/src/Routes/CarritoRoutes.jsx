@@ -1,6 +1,9 @@
+import React from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+
 import CarritoView from "../components/CarritoView";
 import CatalogoView from "../components/CatalogoView";
-import { Route, Routes, Navigate } from "react-router-dom";
+import UsuarioMain from "../components/Usuarios/UsuarioMain";
 
 function CarritoRoutes({handleEliminarProducto, handleAgregarProductos, carritoItems}) {
   return (
@@ -22,6 +25,7 @@ function CarritoRoutes({handleEliminarProducto, handleAgregarProductos, carritoI
           }
         />
         <Route path="/" element={<Navigate to={"/catalogo"} />} />
+        <Route path="usuarios" element={<UsuarioMain/>} />
       </Routes>
     </div>
   );
