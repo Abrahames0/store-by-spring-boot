@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://base-de-datos.ctk6c0022u2b.us-east-1.rds.amazonaws.com:3306/db_dwl_users
+    username: root
+    password: hola123!!
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9192
